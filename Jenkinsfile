@@ -18,7 +18,7 @@ pipeline {
             steps {
                 bat 'docker stop corporate-website-container || exit /b 0'
                 bat 'docker rm corporate-website-container || exit /b 0'
-                bat 'docker run -d --name corporate-website-container -p 8080:80 corporate-website'
+                bat 'docker run -d --name corporate-website-container -p 8081:80 corporate-website'
             }
         }
     }
