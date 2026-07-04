@@ -1,0 +1,2 @@
+function showMessage(){alert('Welcome to ABC Technologies!');}
+function validateForm(){if(document.getElementById('name').value===''){alert('Enter your name');return false;}alert('Form submitted');return false;}
